@@ -4,7 +4,7 @@ pipeline {
         stage('clone the repo and removing the existing one')
         {
           steps {
-              sh "sudo rm -rf /home/a/project"
+              sh "sudo rm -rf /home/coreopt1/project"
               sh "cd /home/coreopt1/"
               sh "mkdir -p /home/coreopt1/project"
               sh "cd /home/coreopt1/project"
